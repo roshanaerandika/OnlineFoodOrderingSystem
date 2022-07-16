@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1E3E400B-E549-4670-A541-ABD236D6ADEF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp2</RootNamespace>
+    <AssemblyName>WindowsFormsApp2</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin_Cu_Acccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Cu_Acccount.Designer.cs">
+      <DependentUpon>Admin_Cu_Acccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_pg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_pg.Designer.cs">
+      <DependentUpon>Admin_pg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ad_bill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ad_bill.Designer.cs">
+      <DependentUpon>Ad_bill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cu_Break Frist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cu_Break Frist.Designer.cs">
+      <DependentUpon>Cu_Break Frist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cu_Dinner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cu_Dinner.Designer.cs">
+      <DependentUpon>Cu_Dinner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cu_Lunch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cu_Lunch.Designer.cs">
+      <DependentUpon>Cu_Lunch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cu_Menu_cn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cu_Menu_cn.Designer.cs">
+      <DependentUpon>Cu_Menu_cn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_dashbord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_dashbord.Designer.cs">
+      <DependentUpon>Admin_dashbord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Canteen_DBUserRegAppData.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Canteen_DBUserRegAppData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Ad_ch_feedback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ad_ch_feedback.Designer.cs">
+      <DependentUpon>Ad_ch_feedback.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_log.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_log.Designer.cs">
+      <DependentUpon>Customer_log.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Log.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Log.Designer.cs">
+      <DependentUpon>Admin_Log.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reset_Pw.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reset_Pw.Designer.cs">
+      <DependentUpon>Reset_Pw.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cu_Reg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cu_Reg.Designer.cs">
+      <DependentUpon>Cu_Reg.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Admin_Cu_Acccount.resx">
+      <DependentUpon>Admin_Cu_Acccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_pg.resx">
+      <DependentUpon>Admin_pg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ad_bill.resx">
+      <DependentUpon>Ad_bill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cu_Break Frist.resx">
+      <DependentUpon>Cu_Break Frist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cu_Dinner.resx">
+      <DependentUpon>Cu_Dinner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cu_Lunch.resx">
+      <DependentUpon>Cu_Lunch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cu_Menu_cn.resx">
+      <DependentUpon>Cu_Menu_cn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_dashbord.resx">
+      <DependentUpon>Admin_dashbord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ad_ch_feedback.resx">
+      <DependentUpon>Ad_ch_feedback.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_log.resx">
+      <DependentUpon>Customer_log.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Log.resx">
+      <DependentUpon>Admin_Log.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Reset_Pw.resx">
+      <DependentUpon>Reset_Pw.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cu_Reg.resx">
+      <DependentUpon>Cu_Reg.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="..\.editorconfig">
+      <Link>.editorconfig</Link>
+    </None>
+    <None Include="Canteen_DBUserRegAppData.xsc">
+      <DependentUpon>Canteen_DBUserRegAppData.xsd</DependentUpon>
+    </None>
+    <None Include="Canteen_DBUserRegAppData.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Canteen_DBUserRegAppData.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Canteen_DBUserRegAppData.xss">
+      <DependentUpon>Canteen_DBUserRegAppData.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flat-lay-composition-lunchboxes-smartphone-white-wooden-table-mockup-design-healthy-food-delivery-flat-lay-159315322.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-lukas-616401.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-pixabay-54455.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-pixabay-544551.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-anush-gorak-1431305.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maximize-window-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\subtract-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1971074-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\The-Canteen-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chef-logo-or-label-menu-design-for-cafe-vector-32281103.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chef-logo-or-label-menu-design-for-cafe-vector-322811031.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Canteen_DB.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Canteen_DB_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>Canteen_DB.mdf</DependentUpon>
+    </Content>
+    <None Include="Resources\download1.jpg" />
+    <None Include="Resources\kottu-6319363_960_720-500x500.jpg" />
+    <None Include="Resources\beef kottu.jpg" />
+    <None Include="Resources\kottu.JPG" />
+    <None Include="Resources\1588614646.jpg" />
+    <None Include="Resources\maxresdefault.jpg" />
+    <None Include="Resources\Egg-Fried-Rice-2-of-1.jpg" />
+    <None Include="Resources\fast-pork-fried-rice-107790-1.jpeg" />
+    <None Include="Resources\Beef-Fried-Rice.jpg" />
+    <None Include="Resources\chicken-fried-rice-recipe-720x405.jpg" />
+    <None Include="Resources\maxresdefault %281%29.jpg" />
+    <None Include="Resources\fish rice &amp; curry.jpg" />
+    <None Include="Resources\images.jpg" />
+    <None Include="Resources\potato-curry-recipe-2-480x270-1.jpg" />
+    <None Include="Resources\Dal-Recipe-Square.jpg" />
+    <None Include="Resources\fish Curry.jpg" />
+    <None Include="Resources\Bihari-Chicken-Curry-2-3.jpg" />
+    <None Include="Resources\noodles.jpg" />
+    <None Include="Resources\stringhopers.jpg" />
+    <None Include="Resources\macroin.jpg" />
+    <None Include="Resources\pan.jpg" />
+    <None Include="Resources\vegi rice &amp; curry.jpg" />
+    <None Include="Resources\img_2293.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
